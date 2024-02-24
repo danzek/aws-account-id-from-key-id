@@ -8,7 +8,13 @@ Coming soon....
 
 # Rationale
 
-*Why write this when perfectly-good Python and Go implementations already exist?*
+## Isn't there a better way to do this?
+
+Yes, use the AWS Security Token Service (STS) API call, [`GetAccessKeyInfo`](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetAccessKeyInfo.html). Example:
+
+    aws sts get-access-key-info --access-key-id=<key-id-goes-here>
+
+## Why write this when perfectly-good Python and Go implementations already exist?
 
 I mainly wrote this as a Rust programming language learning exercise. I'm open to feedback both to learn more about Rust and better ways to implement this as well as to fix any bugs / logic errors in the code.
 
