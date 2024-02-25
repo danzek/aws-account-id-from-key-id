@@ -10,7 +10,7 @@ Coming soon....
 
 ## Isn't there a better way to do this?
 
-Yes, use the AWS Security Token Service (STS) API call, [`GetAccessKeyInfo`](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetAccessKeyInfo.html). Example:
+Yes, use the AWS Security Token Service (STS) API call [`GetAccessKeyInfo`](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetAccessKeyInfo.html). Example:
 
     aws sts get-access-key-info --access-key-id=<key-id-goes-here>
 
@@ -31,6 +31,7 @@ See also:
 - [Get Account ID from AWS Access Keys](https://hackingthe.cloud/aws/enumeration/get-account-id-from-keys/)
 - [Research Uncovers AWS Account Numbers Hidden in Access Keys](https://trufflesecurity.com/blog/research-uncovers-aws-account-numbers-hidden-in-access-keys)
 - [TruffleHog AWS Detector Code](https://github.com/trufflesecurity/trufflehog/blob/main/pkg/detectors/aws/aws.go)
+- [Understanding unique ID prefixes](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_identifiers.html#identifiers-prefixes)
 
 # License
 
