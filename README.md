@@ -4,7 +4,19 @@ Decodes the AWS Account ID given an AWS Access Key ID (with a four-letter resour
 
 # Usage
 
-Coming soon....
+```rust
+use aws_account_id_from_key_id::*;
+
+fn main() {
+    let access_key_id = "AKIASP2TPHJSQH3FJXYZ";
+
+    // Decode AWS account ID given AWS access key ID
+    assert_eq!(get_aws_account_id(&access_key_id).unwrap(), "171436882533");
+    
+    // Get associated AWS resource type given AWS access key ID
+    assert_eq!(get_associated_resource_type(&access_key_id).unwrap(), "Access key");
+}
+```
 
 # Rationale
 
