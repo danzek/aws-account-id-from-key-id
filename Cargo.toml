@@ -5,7 +5,6 @@ version = "0.8.1"
 edition = "2021"
 authors = ["Dan O'Day <d@4n68r.com"]
 license = "MIT"
-license-file = "LICENSE"
 repository = "https://github.com/danzek/aws-account-id-from-key-id"
 readme = "README.md"
 categories = ["encoding"]
