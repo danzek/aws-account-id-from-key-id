@@ -4,4 +4,4 @@ version = 3
 
 [[package]]
 name = "aws_account_id_from_key_id"
-version = "0.8.0"
+version = "0.8.1"

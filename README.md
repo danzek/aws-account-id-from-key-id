@@ -1,6 +1,9 @@
 # Determine AWS Account ID from AWS Access Key ID
 
-Decodes the AWS Account ID given an AWS Access Key ID (with a four-letter resource identifier beginning with "A"; this does not work for older key IDs beginning with "I" or "J").
+Decodes the AWS account ID given an AWS access key ID (with a four-letter resource identifier beginning with "A"; this does not work for older key IDs beginning with "I" or "J").
+
+This is a small, single-file library with no dependencies outside `std`. Only two functions are exported / public
+(there is an example of each below).
 
 # Usage
 
@@ -32,12 +35,9 @@ I mainly wrote this as a Rust programming language learning exercise. I'm open t
 
 # References / Credit
 
-This is primarily based on the research and Python PoC code provided by Tal Be'ery:
+This is primarily based on [the research and Python PoC code by Tal Be'ery](https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489).
 
 - [A short note on AWS KEY ID](https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489)
-
-See also:
-
 - [AWS Access Key ID formats](https://awsteele.com/blog/2020/09/26/aws-access-key-format.html)
 - [AWS security credential formats](https://summitroute.com/blog/2018/06/20/aws_security_credential_formats/)
 - [Get Account ID from AWS Access Keys](https://hackingthe.cloud/aws/enumeration/get-account-id-from-keys/)

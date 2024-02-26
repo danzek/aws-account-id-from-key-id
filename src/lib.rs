@@ -20,7 +20,7 @@
 //!
 //! # References / Credit
 //!
-//! This is primarily based on [the research and Python PoC code provided by Tal
+//! This is primarily based on [the research and Python PoC code by Tal
 //! Be'ery.](https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489)
 //!
 //! - [A short note on AWS KEY ID](https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489)
@@ -134,7 +134,7 @@ pub fn get_aws_account_id(key_id: &str) -> Result<String, Box<dyn std::error::Er
 mod tests {
     use super::*;
 
-    /// Tests all supported AWS access key ID prefixes, a sample access key ID, an invalid prefix,
+    /// Tests all supported AWS access key ID prefixes, sample access key IDs, an invalid prefix,
     /// and an empty string for expected return values.
     #[test]
     fn key_id_prefix_resource_types_match() {
