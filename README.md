@@ -5,6 +5,9 @@ Decodes the AWS account ID given an AWS access key ID (with a four-letter resour
 This is a small, single-file library with no dependencies outside `std`. Only two functions are exported / public
 (there is an example of each below).
 
+- [Crate](https://crates.io/crates/aws_account_id_from_key_id)
+- [Read the documentation on Docs.rs](https://docs.rs/aws_account_id_from_key_id/0.8.1/aws_account_id_from_key_id/)
+
 # Usage
 
 This can be installed as [a crate](https://crates.io/crates/aws_account_id_from_key_id) via `cargo`.
