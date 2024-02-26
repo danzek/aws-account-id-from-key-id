@@ -7,6 +7,12 @@ This is a small, single-file library with no dependencies outside `std`. Only tw
 
 # Usage
 
+This can be installed as [a crate](https://crates.io/crates/aws_account_id_from_key_id) via `cargo`.
+
+`cargo add aws_account_id_from_key_id`
+
+Once added as a dependency to a project, you can use it like so:
+
 ```rust
 use aws_account_id_from_key_id::*;
 
