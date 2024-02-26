@@ -6,7 +6,7 @@ This is a small, single-file library with no dependencies outside `std`. Only tw
 (there is an example of each below).
 
 - [Crate](https://crates.io/crates/aws_account_id_from_key_id)
-- [Read the documentation on Docs.rs](https://docs.rs/aws_account_id_from_key_id/0.8.1/aws_account_id_from_key_id/)
+- [Read the documentation on Docs.rs](https://docs.rs/aws_account_id_from_key_id/0.8.2/aws_account_id_from_key_id/)
 
 # Usage
 
